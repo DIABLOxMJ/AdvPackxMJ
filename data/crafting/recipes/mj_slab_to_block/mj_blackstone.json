@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mj_slab_to_block",
+    "ingredients": [
+        {
+            "item": "minecraft:blackstone_slab"
+        },
+        {
+            "item": "minecraft:blackstone_slab"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blackstone",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mj_stair_to_block",
+    "ingredients": [
+        {
+            "item": "minecraft:quartz_stairs"
+        },
+        {
+            "item": "minecraft:quartz_stairs"
+        },
+        {
+            "item": "minecraft:quartz_stairs"
+        },
+        {
+            "item": "minecraft:quartz_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:quartz_block",
+        "count": 3
+    }
+}

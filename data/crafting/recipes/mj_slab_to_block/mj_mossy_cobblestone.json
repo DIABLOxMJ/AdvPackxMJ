@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mj_slab_to_block",
+    "ingredients": [
+        {
+            "item": "minecraft:mossy_cobblestone_slab"
+        },
+        {
+            "item": "minecraft:mossy_cobblestone_slab"
+        }
+    ],
+    "result": {
+        "item": "minecraft:mossy_cobblestone",
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mj_slab_to_block",
+    "ingredients": [
+        {
+            "item": "minecraft:granite_slab"
+        },
+        {
+            "item": "minecraft:granite_slab"
+        }
+    ],
+    "result": {
+        "item": "minecraft:granite",
+        "count": 1
+    }
+}

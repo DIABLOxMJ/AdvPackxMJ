@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mj_stair_to_block",
+    "ingredients": [
+        {
+            "item": "minecraft:granite_stairs"
+        },
+        {
+            "item": "minecraft:granite_stairs"
+        },
+        {
+            "item": "minecraft:granite_stairs"
+        },
+        {
+            "item": "minecraft:granite_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:granite",
+        "count": 3
+    }
+}

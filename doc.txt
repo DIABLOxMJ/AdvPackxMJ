@@ -1,0 +1,135 @@
+mj_loader :
+
+	find load.json and tick.json -> data/minecraft/tags/functions
+
+mj_enderman :
+
+	- Disable enderman block pickup
+
+	- Désactive le ramassage des blocs des endermans
+
+	Disable option : remove file data/minecraft/tags/blocks/enderman_holdable.json
+
+mj_bow_unerfed :
+
+	- Throwing a bow (enchanted or not) then throwing a book of Infinity and book of Mending
+	- On an anvil will have the effect of merging the 2 books in bow.
+
+	- Lancer un arc (enchanté ou non) puis lancer un livre Infinity est un livre Mending
+	- Sur une enclume aura pour effet de fusionner les 2 livres dans l'arc.
+
+	(Enchanted Book, Enchanted Book and Any Bow > Anvil = Bow enchanted with Mending and Infinity)
+
+	Disable option : remove "mj:mj_bow_unerfed/mj_root" in tick.json
+
+mj_disenchanting :
+
+	- Throw any item enchanted with a writing book on a blacksmith table
+	- will have the effect of cleaning the item and recovering the enchantments in a new book.
+
+	- Lancer n'importe quel objet enchanté avec un livre d'écriture sur une table de forgeron
+	- aura pour effet de nettoyer l'objet et de récupérer les enchantements dans un nouveau livre.
+
+	(Writable Book and Enchanted Item > Smithing Table = Item not enchanted and Enchanted Book)
+
+	Disable option : remove "mj:mj_disenchanting/mj_root" in tick.json
+
+mj_disable_bats :
+
+	- Bats no longer exist
+
+	- Les chauves-souris n'existent plus
+
+	Disable option : remove "mj:mj_disable_bats/mj_root" in tick.json
+
+mj_shulker :
+
+	- Shulkers drop by 100% and the item is doubled
+
+	- Les shulkers lâche à 100% et l'objet est doublé
+
+	Disable option : remove folder data/minecraft/loot_tables
+
+mj_armored_elytra :
+
+	- Throwing a breastplate of your choice with a pair of Elytra on a blacksmith table
+	- will have the effect of merging them
+
+	- Lancer une cuirasse de votre choix avec une paire d'élytres sur une table de forgeron
+	- aura pour effet de les fusionner
+
+	(Any Chestplate and Elytra > Smithing Table = Elytra with Any Chestplate)
+
+	Disable option : remove "mj:mj_armored_elytra/mj_root" in load.json
+
+mj_netherite_armor :
+
+	- Being equipped with full netherite armor makes us invincible to fire/lava
+
+	- Être équipé d'une armure en netherite entier nous rend invincible au feu/lave
+
+	Disable option : remove "mj:mj_netherite_armor/mj_root" in load.json
+
+mj_ungriefed_creeper :
+
+	- Nullifies the effects of Creeper explosions
+	/!\ Maybe disabling it is recommended on some servers can lead to technical issues
+ 
+	- Annule les effets des explosions de Creeper
+	/!\ Peut-être que sa désactivation est recommandée sur certains serveurs peut entraîner des problèmes techniques
+
+	Disable option : remove "mj:mj_ungriefed_creeper/mj_root" in tick.json
+
+mj_crafting :
+	- Ajoute un tas de recette intéressante
+
+	- Bundle (Sac)
+	Disable option : remove file data/crafting/recipes/mj_other/mj_bundle.json
+	Disable option : remove file data/crafting/recipes/mj_other/mj_bundle_rabbit.json
+
+	- Experience Bottle
+	Disable option : remove file data/crafting/recipes/mj_other/mj_experience_bottle.json
+
+	- Notch Apple
+	Disable option : remove file data/crafting/recipes/mj_other/mj_notch_apple.json
+
+	- String
+	Disable option : remove file data/crafting/recipes/mj_other/mj_string.json
+
+	- Totem of Undying
+	Disable option : remove file data/crafting/recipes/mj_other/mj_totem_of_undying.json
+
+	- Multi-coloration
+	- (Vanilla 1 Dye with 1 Wool Block = 1 Wool Block Colored)
+	- (Datapack add 1 Dye with 8 Wool Block = 8 Wool Block Colored)
+	Disable option : remove folder data/crafting/recipes/mj_color
+
+	- Blast Furnace (Add 4 craft, Stone, Smooth Stone, Nether Brick and Cracked Stone Bricks)
+	Disable option : remove folder crafting/recipes/mj_blastfurnace
+
+	- Converter Slab to Block (2 Slabs = 1 Block)
+	Disable option : remove folder data/crafting/recipes/mj_slab_to_block
+
+	- Converter Stair to Block (4 Stairs = 1 Block)
+	Disable option : remove folder data/crafting/recipes/mj_stair_to_block
+
+	- Uncolored (Bed)
+	Disable option : remove folder data/crafting/recipes/mj_uncolor/mj_bed
+
+	- Uncolored (Carpet)
+	Disable option : remove folder data/crafting/recipes/mj_uncolor/mj_carpet
+
+	- Uncolored (Glass)
+	Disable option : remove folder data/crafting/recipes/mj_uncolor/mj_glass
+
+	- Uncolored (Glass Pane)
+	Disable option : remove folder data/crafting/recipes/mj_uncolor/mj_glass_pane
+
+	- Uncolored (Terracotta)
+	Disable option : remove folder data/crafting/recipes/mj_uncolor/mj_terracotta
+
+	- Uncolored (Wool)
+	Disable option : remove folder data/crafting/recipes/mj_uncolor/mj_wool
+
+	- Spawner with Any Spawn Egg
+	Disable option : remove folder data/crafting/recipes/mj_spawner
